@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara Shop</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="shop.html">Comprar</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">Sobre nós</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#quaselá</h2>
+        <p>Com a nossa entrega rápida e frete rápido em poucos dias suas peças já estão em sua mão!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remover</td>
+                    <td>Imagem</td>
+                    <td>Produto</td>
+                    <td>Preço</td>
+                    <td>Quantidade</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Blusa Florida</td>
+                    <td>R$99,99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$99,99</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Blusa Orquídea</td>
+                    <td>R$99,99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$99,99</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Blusa Vintage Florido</td>
+                    <td>R$99,99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$99,99</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f4.jpg" alt=""></td>
+                    <td>Blusa Cerejeira</td>
+                    <td>R$99,99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$99,99</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Aplicar cupon</h3>
+            <div>
+                <input type="text" placeholder="Digite seu cupom">
+                <button class="normal">Aplicar</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Total do carrinho</h3>
+            <table>
+                <tr>
+                    <td>Subtotal do Carrinho</td>
+                    <td>R$399,96</td>
+                </tr>
+                <tr>
+                    <td>Entrega</td>
+                    <td>Grátis</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>R$399,96</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Prosseguir para a confirmação</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo.png" alt="">
+            <br>
+            <h4>Contato</h4>
+            <p><strong>Endereço: </strong> Rua João Cirilo de Oliveira 450</p>
+            <p><strong>Telefone: </strong> +55 21971629833/ +55 21991915000 </p>
+            <p><strong>Horas: </strong>10:00 - 18:00, Seg - Sab</p>
+            <div class="follow">
+                <h4>Siga-nos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre nós</a>
+            <a href="#">Entrega</a>
+            <a href="#">Politicas de privacidade</a>
+            <a href="#">Termos e condições</a>
+            <a href="#">Contato</a>
+        </div>
+        <div class="col">
+            <h4>Minha conta</h4>
+            <a href="#">Cadastro</a>
+            <a href="#">Ver carrinho</a>
+            <a href="#">Lista de desejos</a>
+            <a href="#">Rastrear pedidos</a>
+            <a href="#">Suporte</a>
+        </div>
+        <div class="col install">
+            <h4>Instalar Aplicativo</h4>
+            <p>App Store ou Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Formas de pagamento</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2023 - CARA SHOP - TODOS DIREITOS RESERVADOS - CNPJ 123131233</p>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
